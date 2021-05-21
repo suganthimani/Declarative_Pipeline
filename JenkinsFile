@@ -13,5 +13,13 @@ pipeline
                                 echo 'Hello Wolrd'
                                 }
                         }
+			stage('Three')
+			{
+			steps {
+			       echo 'Hello World Stage3'
+			       }
+			 }
                 }
         }
+
+
